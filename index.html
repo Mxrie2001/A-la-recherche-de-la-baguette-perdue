@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<title>SURPASSE LES EXPERTS DE LA BAGUETTE</title>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img id="logo" src="img/logo.png" alt="logo">
+    <h1 id="titre">SURPASSE LES EXPERTS DE LA BAGUETTE</h1>
+    <h1 id="titre1">Pain</h1>
+    <h1 id="titre2">Brioche Choco</h1>
+    <h1 id="titre3">Charlotte Fruits Rouge</h1>
+
+    <span id="score">Score : 0</span>
+    <br/>
+    <span id="currentlvl"></span>
+    <br/>
+    
+    <button id="1" onclick="playSnake(this.id)" type="button">Niveau 1 : Pain</button>
+    <button id="2" onclick="playSnake(this.id)" type="button">Niveau 2 : Brioche Choco</button>
+    <button id="3" onclick="playSnake(this.id)" type="button">Niveau 3 : Charlotte Fruits Rouge</button>
+
+<div class="plateau-jeu">
+    <img id="mounia" src="img/mounia.png">
+    <canvas id="dessin"></canvas>
+    <img id="patronne" src="img/patronne.png">
+</div>
+
+<div id="myModal1" class="modal">
+    <div class="modal-content">
+      <div>
+        <img class="imgBravo" src="img/bravo1.png">
+        <p>Bravo tu as réussi à faire des Baguettes !</p>
+      </div>
+    </div>
+</div>
+
+<div id="myModal2" class="modal">
+    <div class="modal-content">
+      <div>
+        <img class="imgBravo2" src="img/bravo2.png">
+        <p>Nickel, la Brioche à l'air délicieuse ;)</p>
+    </div>
+    </div>
+</div>
+
+<div id="myModal3" class="modal">
+    <div class="modal-content">
+      <div>
+        <img class="imgBravo2" src="img/bravo3.png">
+        <p>Yeah Bravo !</p>
+    </div>
+    </div>
+</div>
+
+<div id="myModal4" class="modal">
+    <div class="modal-content">
+      <div>
+        <img class="imgBravo" src="img/perdu1.png">
+        <p>Perdu :(</p>
+      </div>
+    </div>
+</div>
+
+<div id="myModal5" class="modal">
+    <div class="modal-content">
+      <div>
+        <img class="imgBravo2" src="img/perdu2.png">
+        <p>C'est pas possible, recommence ! </p>
+    </div>
+    </div>
+</div>
+
+<div id="myModal6" class="modal">
+    <div class="modal-content">
+      <div>
+        <img class="imgBravo2" src="img/perdu3.png">
+        <p>Bon laisse moi faire :/</p>
+    </div>
+    </div>
+</div>
+    
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
